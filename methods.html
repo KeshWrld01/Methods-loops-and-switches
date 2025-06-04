@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods in JS</title>
+</head>
+<body>
+    <h1>Javascript string methods</h1>
+    <p>Basic Methods</p>
+    <script>
+        var str = "AmaZInG"
+        document.write(str.toLocaleLowerCase() +"<br>");
+        document.write(str.toLocaleUpperCase() + "<br>");
+        document.write(str.startsWith("A") +"<br>");
+
+        //test method -> returns true or false
+        var str1= "I learnt Methods";
+        var pat = new RegExp("about");
+        var res = pat.test(str1);
+        document.write(res);
+
+    </script>
+    
+</body>
+</html>
